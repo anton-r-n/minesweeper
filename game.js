@@ -15,6 +15,7 @@ function Game() {}
  */
 Game.prototype.init = function(parent) {
   this.min_mines = 8;
+  this.max_size = 50;
 
   parent.innerHTML = document.querySelector('#tpl_game').innerHTML;
 
@@ -98,12 +99,13 @@ Game.prototype.setup = function() {
  */
 Game.prototype.verify = function() {
   var min = this.min_mines,
+      max = this.max_size,
       width = this.form.querySelector('[name="width"]'),
       height = this.form.querySelector('[name="height"]'),
       mines = this.form.querySelector('[name="mines"]');
 
-  this.width = Math.min(Math.max(width.value | 0, min), 100);
-  this.height = Math.min(Math.max(height.value | 0, min), 100);
+  this.width = Math.min(Math.max(width.value | 0, min), max);
+  this.height = Math.min(Math.max(height.value | 0, min), max);
 
   this.cells = this.width * this.height;
   this.mines = Math.max(Math.min(this.cells - 1, mines.value | 0), 1);
@@ -236,7 +238,7 @@ Game.prototype.open = function(x, y) {
  */
 Game.prototype.draw = function() {
   var html = [];
-  html.push('<table>');
+  html.push('<table width="', this.width * 20 ,'">');
   for (var i = 0; i < this.height; i++) {
     html.push('<tr>');
     for (var j = 0; j < this.width; j++) {
