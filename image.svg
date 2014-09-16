@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+  width="330"
+  height="30"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css"><![CDATA[
+      .icon .face {
+        fill: #ff0;
+        stroke: #000;
+        stroke-width: .5;
+      }
+      .icon .eyes {
+        fill: #000;
+        stroke: none;
+      }
+      .icon .smile {
+        fill: none;
+        stroke: #000;
+      }
+      .digit path {
+        fill: #600;
+        stroke: none;
+      }
+      .digit path.a {
+        fill: #f00;
+      }
+      .flag path {
+        fill: #000;
+        stroke: none;
+      }
+      .flag path.a {
+        fill: #f00;
+      }
+      .mine circle {
+        stroke: none;
+      }
+      .mine path {
+        stroke: black;
+        stroke-width: 2;
+      }
+      .mine path.x {
+        stroke: #f00;
+      }
+    ]]></style>
+  </defs>
+  <g class="icon">
+    <circle class="face" cx="15" cy="15" r="11" />
+    <path class="eyes"
+      d="M 10,11 l 0,3 3,0 0,-3 z M 17,11 l 0,3 3,0 0,-3 z" />
+    <path class="smile" d="M 10,18 a 8 8 0 0 0 10 0" />
+  </g>
+  <g class="icon" transform="translate(30,0)">
+    <circle class="face" cx="15" cy="15" r="11" />
+    <path class="eyes"
+      d="M 7,11 l 1,5 5,0 1,-5 z M 16,11 l 1,5 5,0 1,-5 z" />
+    <path class="smile" d="M 4,15 l 3,-3.5 16,0 3,3" />
+    <path class="smile" d="M 10,19.5 a 15 15 0 0 0 10 0" />
+  </g>
+  <g class="icon" transform="translate(60,0)">
+    <circle class="face" cx="15" cy="15" r="11" />
+    <path class="smile"
+      d="M 9,10 l 4,4 m -4,0 l 4,-4  M 21,10 l -4,4 m 4,0 l -4,-4" />
+    <path class="smile" d="M 10,20 a 8 8 0 0 1 10 0" />
+  </g>
+  <g class="digit" transform="translate(90,0)">
+    <path d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0  z" />
+  </g>
+  <g class="digit" transform="translate(105,0)">
+    <path class="a" d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path class="a" d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path class="a" d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(120,0)">
+    <path d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path class="a" d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(135,0)">
+    <path class="a" d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path class="a" d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path class="a" d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(150,0)">
+    <path class="a" d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path class="a" d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(165,0)">
+    <path d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path class="a" d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(180,0)">
+    <path class="a" d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(195,0)">
+    <path class="a" d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path class="a" d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(210,0)">
+    <path class="a" d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path class="a" d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(225,0)">
+    <path class="a" d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path class="a" d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path class="a" d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(240,0)">
+    <path class="a" d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path class="a" d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path class="a" d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="digit" transform="translate(255,0)">
+    <path d="m 0,0 l 14,0 -4,4 -6,0 z" />
+    <path d="m 14,0 l 0,14 -4,-4 0,-6 z" />
+    <path d="m 14,14 l 0,14 -4,-4 0,-6 z" />
+    <path d="m 0,28 l 14,0 -4,-4 -6,0 z" />
+    <path d="m 0,14 l 0,14 4,-4 0,-6 z" />
+    <path d="m 0,0 l 0,14 4,-4 0,-6 z" />
+    <path class="a" d="m 1,14 l 2,-2 8,0 2,2 -2,2 -8,0 z" />
+  </g>
+  <g class="flag" transform="translate(270,0)">
+    <path d="m 6,15 l 0,-2 2,0 0,-1 1,0 0,-2 2,0 0,2 1,0 0,1 2,0 0,2 z" />
+    <path class="a" d="m 5,7 l 5,-3 1,0 0,6 -1,0 z" />
+  </g>
+  <g class="mine" transform="translate(290,0)">
+    <circle fill="black" cx="10" cy="10" r="5" />
+    <path d="m 5,5 l 10,10" />
+    <path d="m 15,5 l -10,10" />
+    <path d="m 10,3 l 0,14" />
+    <path d="m 3,10 l 14,0" />
+    <circle fill="white" cx="8" cy="8.5" r="1.5" />
+  </g>
+  <g class="mine" transform="translate(310,0)">
+    <circle fill="black" cx="10" cy="10" r="5" />
+    <path d="m 10,3 l 0,14" />
+    <path d="m 3,10 l 14,0" />
+    <circle fill="white" cx="8" cy="8.5" r="1.5" />
+    <path class="x" d="m 2,2 l 16,16" />
+    <path class="x" d="m 18,2 l -16,16" />
+  </g>
+</svg>

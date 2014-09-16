@@ -4,6 +4,118 @@
     <meta charset="utf-8" />
     <title>Minesweeper</title>
     <link rel="stylesheet" href="styles.css" />
+    <script type="text/html" id="tpl_game">
+      <div class="outer">
+        <div class="middle">
+          <div class="inner">
+            <div class="outer icon"></div>
+            <div class="inner digits time">
+              <div class="digit"></div>
+              <div class="digit"></div>
+              <div class="digit"></div>
+            </div>
+            <div class="inner digits mines">
+              <div class="digit"></div>
+              <div class="digit"></div>
+              <div class="digit"></div>
+            </div>
+          </div>
+        </div>
+        <div class="middle">
+          <div class="inner game">
+          </div>
+        </div>
+      </div>
+      <form class="settings">
+        <table>
+          <thead>
+            <tr>
+              <th>Game</th>
+              <th>Height</th>
+              <th>Width</th>
+              <th>Mines</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <label>
+                  <input
+                    type="radio"
+                    name="level"
+                    value="beginner"
+                    checked="checked" />
+                  Beginner
+                </label>
+              </td>
+              <td><span>8</span></td>
+              <td><span>8</span></td>
+              <td><span>10</span></td>
+            </tr>
+            <tr>
+              <td>
+                <label>
+                  <input
+                    type="radio"
+                    name="level"
+                    value="intermediate" />
+                  Intermediate
+                </label>
+              </td>
+              <td><span>16</span></td>
+              <td><span>16</span></td>
+              <td><span>40</span></td>
+            </tr>
+            <tr>
+              <td>
+                <label>
+                  <input
+                    type="radio"
+                    name="level"
+                    value="expert" />
+                  Expert
+                </label>
+              </td>
+              <td><span>16</span></td>
+              <td><span>30</span></td>
+              <td><span>99</span></td>
+            </tr>
+            <tr>
+              <td>
+                <label>
+                  <input
+                    type="radio"
+                    name="level"
+                    value="custom" />
+                  Custom
+                </label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="height"
+                  value=""
+                  maxlength="3" />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="width"
+                  value=""
+                  maxlength="3" />
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="mines"
+                  value=""
+                  maxlength="3" />
+              </td>
+            </tr>
+          </tbody>
+        <table>
+      </form>
+    </script>
   </head>
   <body>
     <div class="Minesweeper"></div>
