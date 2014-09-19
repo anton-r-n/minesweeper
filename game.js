@@ -356,6 +356,9 @@ Game.prototype.end = function(win) {
   var state = win ? 'win' : 'fail';
   this.root.className += ' ' + state;
   this.resume(win ? 'flag' : 'mine');
+  if (win) {
+    this.digit(this.digit_mines, 0);
+  }
   window.clearInterval(this.timer);
   this.timer = 0;
 };
