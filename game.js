@@ -143,8 +143,10 @@ Game.prototype.mousedown = function(e) {
 
   if (this.state === 'end') return;
   if (this.state === 'pause') {this.start(x, y);}
-  if (e.button === 0) {this.click([x, y]);}
-  if (e.button === 2) {this.flag(x, y);}
+
+  var rightClick = e.altKey || e.ctrlKey || e.metaKey;
+  if (e.button === 0 && !rightClick) {this.click([x, y]);}
+  if (e.button === 2 || rightClick) {this.flag(x, y);}
 };
 
 
